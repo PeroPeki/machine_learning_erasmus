@@ -26,6 +26,8 @@
 1. python -m venv venv
 2. Activate the environment (Windows: venv\Scripts\activate, Mac/Linux: source venv/bin/activate)
 3. pip install -r requirements.txt
-4. jupyter notebook, then open the notebooks in order (01, 02, 03)
+4. jupyter notebook, then open notebooks/data_explanation.ipynb and run all cells (Part 1, Part 2 and Part 3 are in this one notebook)
+
+The notebook must be run from the notebooks/ folder and needs the src/ folder: the Part 2 functions are defined in src/features.py and imported by the notebook and by the saved pipeline (data/processed/full_pipeline.joblib).
 
 All random operations use random_state=42.
